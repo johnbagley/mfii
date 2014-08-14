@@ -1,7 +1,7 @@
 <% if signed_in? %>
   You are currently signed in.  Click below to enter.
   <p>
-  <%= link_to(image_tag('logo.jpg'), dashboard_path) %>
+  <%= link_to(image_tag('logo.jpg'), dashboards_path) %>
 <% else %>
   <%= image_tag('logo.jpg') %>
 <% end %>
