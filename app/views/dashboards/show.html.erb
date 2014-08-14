@@ -1,0 +1,12 @@
+<h2><%= current_user.email %></h2>
+<p>
+<%= form_for(@team) do |form| %>
+  <%= form.label :name, "Team Name" %>
+  <%= form.text_field :name %>
+  <%= form.submit "Submit" %>
+  <p>
+<% end %>
+
+<% @teams.each do |team| %>
+  <%= link_to team.name, team %>
+<% end %>
