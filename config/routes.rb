@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :users, only: [:new, :create]
   root "welcomes#index"
   resource :dashboards, only: [:show]
-  resources :teams, only: [:new, :create, :show]
-  resources :drafted_player_relationships, only: [:create]
+  resources :teams, only: [:new, :create, :show] do
+    resources :team_memberships, only: [:create]
+  end
 end
