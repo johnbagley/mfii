@@ -1,7 +1,10 @@
 class TeamsController < ApplicationController
   def show
     @team = current_user.teams.find(params[:id])
+    @player = Player.read_file
+    @players = Player.all
   end
+
   def create
     team = current_user.teams.create(team_params)
     redirect_to team

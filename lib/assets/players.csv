@@ -1,0 +1,28 @@
+rank,name,completions,passing_yards,passing_touchdowns,interceptions,rushes,rushing_yards,rushing_touchdowns,receptions,receiving_yards,receiving_touchdowns,points
+1,"Peyton Manning, Den QB",435/640,5210,48,12,32,-14,0,0,0,0,368
+2,"Aaron Rodgers, GB QB",348/514,4378,39,7,47,225,2,0,0,0,347
+3,"Drew Brees, NO QB",435/626,4880,39,15,27,64,1,0,0,0,329
+4,"Cam Newton, Car QB P",276/462,3365,20,15,118,637,8,0,0,0,289
+5,"Robert Griffin III, Wsh QB",294/490,3789,22,13,101,563,4,0,0,0,285
+6,"Matthew Stafford, Det QB",397/649,4471,32,18,34,84,2,0,0,0,284
+7,"Andrew Luck, Ind QB",357/581,4071,23,10,63,365,3,0,0,0,282
+8,"Nick Foles, Phi QB",299/467,3969,26,11,70,273,3,0,0,0,277
+9,"Russell Wilson, Sea QB",257/400,3264,25,10,92,497,3,0,0,0,269
+10,"Colin Kaepernick, SF QB",248/427,3378,22,11,101,474,4,0,0,0,266
+11,"Tony Romo, Dal QB P",413/633,4654,28,15,23,29,0,0,0,0,264
+12,"Tom Brady, NE QB",402/626,4287,26,9,24,21,1,0,0,0,261
+13,"Philip Rivers, SD QB",364/544,4392,28,12,26,45,0,0,0,0,261
+14,"Matt Ryan, Atl QB",419/627,4377,28,14,24,86,0,0,0,0,261
+15,"Adrian Peterson, Min RB P",0/0,0,0,0,298,1365,13,40,289,2,250
+16,"Jay Cutler, Chi QB",302/485,3653,28,16,32,196,1,0,0,0,245
+17,"Jamaal Charles, KC RB",0/0,0,0,0,247,1260,7,64,587,4,244
+18,"LeSean McCoy, Phi RB",0/0,0,0,0,294,1402,9,42,342,3,242
+19,"Andy Dalton, Cin QB",317/520,3562,27,15,54,137,2,0,0,0,237
+20,"Calvin Johnson, Det WR",0/0,0,0,0,0,0,0,94,1664,12,236
+21,"Ben Roethlisberger, Pit QB",319/511,3744,26,13,26,100,1,0,0,0,235
+22,"Matt Forte, Chi RB",0/0,0,0,0,270,1227,8,70,576,2,235
+23,"Marshawn Lynch, Sea RB P",0/0,0,0,0,303,1285,12,33,279,1,229
+24,"Eli Manning, NYG QB P",340/550,3912,25,16,20,27,0,0,0,0,222
+25,"Carson Palmer, Ari QB",346/566,4191,23,17,19,23,0,0,0,0,221
+26,"Ryan Tannehill, Mia QB",325/545,3672,23,17,42,209,1,0,0,0,220
+27,"Demaryius Thomas, Den WR",0/0,0,0,0,0,0,0,93,1400,13,21

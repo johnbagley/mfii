@@ -16,7 +16,7 @@
     <%= player.receiving_yards %>
     <%= player.receiving_touchdowns %>
     <%= player.points %>
-    <%= button_to "Select player", team_players_path(@team), method: :post %>
+    <%= link_to "Select player", drafted_player_relationships_path, method: :post %>
     </li>
   </ul>
 <% end %>

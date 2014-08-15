@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140814170955) do
+ActiveRecord::Schema.define(version: 20140814172434) do
 
   create_table "players", force: true do |t|
     t.integer  "rank",                 default: 0
@@ -29,6 +29,11 @@ ActiveRecord::Schema.define(version: 20140814170955) do
     t.integer  "points",               default: 0
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "team_memberships", force: true do |t|
+    t.integer "team_id",   null: false
+    t.integer "player_id", null: false
   end
 
   create_table "teams", force: true do |t|
