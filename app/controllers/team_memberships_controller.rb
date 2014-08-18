@@ -5,6 +5,13 @@ class TeamMembershipsController < ApplicationController
     redirect_to team
   end
 
+  def destroy
+    team = current_user.teams.find(params[:team_id])
+    player = team.players.find(params[:id])
+    team.players.destroy(player)
+    redirect_to team
+  end
+
   private
 
   def player_params

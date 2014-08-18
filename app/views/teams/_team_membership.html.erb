@@ -1,4 +1,5 @@
 <li>
+<%= team_membership.id %>
   <%= player.name %>
   <%= player.passing_yards %>
   <%= player.passing_touchdowns %>
@@ -9,5 +10,6 @@
   <%= player.receiving_yards %>
   <%= player.receiving_touchdowns %>
   <%= player.points %>
-  <%= link_to 'remove player', team_team_membership_path(@team, player.id), method: :delete %>
+  <%= player.inspect %>
+  <%= link_to 'Remove Player', team_team_membership_path(@team, player.id), method: :delete %>
 </li>
